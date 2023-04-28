@@ -1,7 +1,7 @@
 # main links
-main:
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+#main:
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,9 +10,37 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-    - title: "Category"
-      children:
-        - title: "아무거나"
-        url: "/anything"
-        - title: "아무거나2"
-        url: "/anything2S"
+  - title: "Anything"
+    url: "/categories/anything1/"
+    #children:
+      #- title: "anything1"
+      #  url: "/categories/anything1/"
+      #  category: "anything1"
+
+      #- title: "anything2"
+      #  url: "/categories/anything2/"
+      #  category: "anything2"
+  
+sidebar-category:
+  - title: "💻 Programming"
+    children:
+      - title: "C#"
+        url: "/csharp"
+        category: "csharp"
+      
+      - title: "Minimal-Mistakes"
+        url: "/Minimal-Mistakes"
+        category: "Minimal-Mistakes"
+
+      - title: "Tools"
+        url: "/Tools"
+        category: "Tools"
+  - title: "Anything"
+    children:
+      - title: "anything1"
+        url: "/categories/anything1/"
+        category: "anything1"
+
+      - title: "anything2"
+        url: "/categories/anything2/"
+        category: "anything2"
