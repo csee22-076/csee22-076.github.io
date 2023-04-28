@@ -11,4 +11,8 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
     - title: "Category"
-      url: /category/ 
+      children:
+        - title: "아무거나"
+        url: "/anything"
+        - title: "아무거나2"
+        url: "/anything2S"
